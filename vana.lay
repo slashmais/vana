@@ -1,0 +1,16 @@
+LAYOUT(sanaLayout, 316, 152)
+END_LAYOUT
+
+LAYOUT(testlayout, 148, 128)
+	ITEM(Label, lbl0, SetLabel(t_("Current Sample")).LeftPosZ(4, 84).TopPosZ(0, 19))
+	ITEM(Label, lbl1, SetLabel(t_("Size:")).SetAlign(ALIGN_RIGHT).LeftPosZ(16, 28).TopPosZ(20, 19))
+	ITEM(EditString, ebCSSize, SetEditable(false).LeftPosZ(48, 88).TopPosZ(20, 19))
+	ITEM(LabelBox, lblb0, SetLabel(t_("Selection")).LeftPosZ(4, 140).TopPosZ(40, 84))
+	ITEM(Label, lbl2, SetLabel(t_("From:")).SetAlign(ALIGN_RIGHT).LeftPosZ(12, 32).TopPosZ(56, 19))
+	ITEM(EditString, ebFrom, LeftPosZ(48, 88).TopPosZ(56, 19))
+	ITEM(Label, lbl3, SetLabel(t_("To:")).SetAlign(ALIGN_RIGHT).LeftPosZ(12, 32).TopPosZ(76, 19))
+	ITEM(EditString, ebTo, LeftPosZ(48, 88).TopPosZ(76, 19))
+	ITEM(Label, lbl4, SetLabel(t_("Size:")).SetAlign(ALIGN_RIGHT).LeftPosZ(16, 28).TopPosZ(96, 19))
+	ITEM(EditString, ebSelSize, SetEditable(false).LeftPosZ(48, 88).TopPosZ(96, 19))
+END_LAYOUT
+

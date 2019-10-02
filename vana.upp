@@ -1,0 +1,32 @@
+description "voice analysis\377";
+
+uses
+	CtrlLib,
+	vioctrl,
+	CtrlCore,
+	utilfuncs,
+	utilfuncs;
+
+file
+	main.cpp,
+	vana.h,
+	vana.cpp,
+	vana.lay,
+	vana.iml,
+	psettings.cpp,
+	pspectrum.cpp,
+	pfilters.cpp,
+	pmixer.cpp,
+	pphonetics.cpp,
+	ptoys.cpp,
+	smgctrl.cpp,
+	fft.h,
+	fft.cpp,
+	piano.h,
+	piano.cpp,
+	vanautil.h,
+	vanautil.cpp;
+
+mainconfig
+	"" = "GUI MT";
+
